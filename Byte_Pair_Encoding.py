@@ -126,20 +126,12 @@ def data_preprocessing(sentence, max_vocab, len_max_vocab):
 
 # all_data is the string data you need to encode
 #반복
-max_length_limit = 3
 stop = False
 data_limit = 20000
 minimum_connect_count = 200
-
-
 max_length_limit = 3
 all_type2 = 단어사전처리(all_type)
 count_vocab2, list_vocab = count_vocab(all_type2)
-
-#반복
-stop = False
-data_limit = 20000
-minimum_connect_count = 200
 
 m = 0
 whole_time = time.time()
