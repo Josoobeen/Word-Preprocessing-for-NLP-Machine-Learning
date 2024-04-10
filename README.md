@@ -20,3 +20,12 @@ Also Maximum word is increasing, it makes training time increase.
 
 Character Encoding is Very OLD Technique.
 "I am hungry" -> ["I"," ","a","m"," ","h","u","n","g","r","y"]
+
+
+## Word Encoding(High Memory Usage)
+This code is Word Encoding, separate all words, follow space.
+Simple code and machine can detect what is the meaning of words. if words is repeated in several sentence.
+Problem is most of words are not enough repeat, to train machine. Also, use a lot of Memory space to save all words.
+Most of people don't use perfect Grammar. Have to process problem words again.
+
+"I am hungry" -> ["I","am","hungry"]
